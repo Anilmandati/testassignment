@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-29T23:46:20 IST" name="Default suite" finished-at="2021-07-29T23:46:36 IST" duration-ms="16098">
+    <groups>
+    </groups>
+    <test started-at="2021-07-29T23:46:20 IST" name="Default test" finished-at="2021-07-29T23:46:36 IST" duration-ms="16098">
+      <class name="take_home_webdriver_test.Webdriver_Tests.LoginTestCases">
+        <test-method is-config="true" signature="initTestSuite()[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:20 IST" name="initTestSuite" finished-at="2021-07-29T23:46:24 IST" duration-ms="3571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestSuite -->
+        <test-method signature="verifyLockedOutUser()[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:24 IST" name="verifyLockedOutUser" finished-at="2021-07-29T23:46:25 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLockedOutUser -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:25 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:25 IST" duration-ms="455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:25 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:25 IST" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:25 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:26 IST" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:26 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:31 IST" duration-ms="5491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:31 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:32 IST" duration-ms="392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:32 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:32 IST" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gfv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:32 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:33 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:33 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:33 IST" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginForValidAndInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:33 IST" name="verifyLoginForValidAndInvalidCredentials" data-provider="credentials_dataset" finished-at="2021-07-29T23:46:33 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fghd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginForValidAndInvalidCredentials -->
+        <test-method signature="verifyLoginPageUI()[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:33 IST" name="verifyLoginPageUI" finished-at="2021-07-29T23:46:33 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageUI -->
+        <test-method signature="verifyValidationMessagesForInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:33 IST" name="verifyValidationMessagesForInvalidCredentials" data-provider="invalidcredentials_error_dataset" finished-at="2021-07-29T23:46:34 IST" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationMessagesForInvalidCredentials -->
+        <test-method signature="verifyValidationMessagesForInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:34 IST" name="verifyValidationMessagesForInvalidCredentials" data-provider="invalidcredentials_error_dataset" finished-at="2021-07-29T23:46:34 IST" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gfv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationMessagesForInvalidCredentials -->
+        <test-method signature="verifyValidationMessagesForInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:34 IST" name="verifyValidationMessagesForInvalidCredentials" data-provider="invalidcredentials_error_dataset" finished-at="2021-07-29T23:46:35 IST" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationMessagesForInvalidCredentials -->
+        <test-method signature="verifyValidationMessagesForInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:35 IST" name="verifyValidationMessagesForInvalidCredentials" data-provider="invalidcredentials_error_dataset" finished-at="2021-07-29T23:46:35 IST" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationMessagesForInvalidCredentials -->
+        <test-method signature="verifyValidationMessagesForInvalidCredentials(java.lang.String, java.lang.String)[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:35 IST" name="verifyValidationMessagesForInvalidCredentials" data-provider="invalidcredentials_error_dataset" finished-at="2021-07-29T23:46:35 IST" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fghd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationMessagesForInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:take_home_webdriver_test.Webdriver_Tests.LoginTestCases@2892dae4]" started-at="2021-07-29T23:46:35 IST" name="tearDown" finished-at="2021-07-29T23:46:36 IST" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- take_home_webdriver_test.Webdriver_Tests.LoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+TestCase_1-Verify that user is landing on login page after enter the valid url
+
+TestCase_2-Verify that user is able to see the follwing contents on login page:
+		Username textbox,password text box,
+          	login button
+
+TestCase_3-Verify that username text box and password text box is editable or not
+
+TestCase_4-Verify that login button is clickable or not
+
+TestCase_5-Verify that the user is able to login by entering valid credentials and clicking on the ‘Login’ button.
+
+TestCase_6-Verify that the user is not able to login with an invalid username and password.
+
+TestCase_7-Verify that the validation message gets displayed in case the user leaves the username or password field blank.
+
+TestCase_8-Verify that the validation message gets displayed in case the user enters the username or password or 
+                 both user name and password is wrong.
+
+TestCase_9-Verify that user is able to login from one the following user name:
+               standard_user,locked_out_user,problem_user,performance_glitch_user and password :secret_sauce
+
+TestCase_10-Verify that user is able  to see the validation message if user enters the different username or password which are not mentioned above
+
+TestCase_11-Verify after successful login, user lands on Products page.
+
+TestCase_12- Verify login page displays "Accepted usernames are"
+
+TestCase_13- Verify if Login page displays "Password for all users"
+
+           
